@@ -81,7 +81,7 @@ const programacao = [
 const equipe = [
   // TODO: substitua pelos dados reais do grupo (foto em public/img/ e campo "foto")
   { nome: "Gabriela Cardoso", ra: "1371392522021", papel: "Backend", foto: "", techs: ["Node.js", "REST APIs", "JSON", "Git", "Java", "Markdown"] },
-  { nome: "João Paulo", ra: "00000002", papel: "Backend", foto: "", techs: ["Node.js", "REST APIs", "JSON", "Git", "Java"] },
+  { nome: "João Paulo", ra: "1371392522009", papel: "Backend", foto: "", techs: ["Node.js", "REST APIs", "JSON", "Git", "Java", "Python"] },
   { nome: "Julia Milagres", ra: "00000003", papel: "Frontend e UI/UX", foto: "", techs: ["Figma", "Design responsivo", "CSS Grid", "HTML"] },
   { nome: "Murilo Marcolino", ra: "1371392522004", papel: "Frontend", foto: "/img/Murilo.jpeg", techs: ["HTML", "CSS", "JavaScript", "Figma"] },
   { nome: "Yasmin Maria", ra: "1371392522029", papel: "Banco de dados", foto: "/img/Yasmin.jpeg", techs: ["SQL", "Power BI", "Análise de dados"] }
