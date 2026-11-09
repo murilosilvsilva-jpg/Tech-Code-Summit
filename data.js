@@ -80,7 +80,7 @@ const programacao = [
 
 const equipe = [
   // TODO: substitua pelos dados reais do grupo (foto em public/img/ e campo "foto")
-  { nome: "Gabriela Cardoso", ra: "00000001", papel: "Backend", foto: "", techs: ["Node.js", "REST APIs", "JSON", "Git", "Java", "Markdown"] },
+  { nome: "Gabriela Cardoso", ra: "1371392522021", papel: "Backend", foto: "", techs: ["Node.js", "REST APIs", "JSON", "Git", "Java", "Markdown"] },
   { nome: "João Paulo", ra: "00000002", papel: "Backend", foto: "", techs: ["Node.js", "REST APIs", "JSON", "Git", "Java"] },
   { nome: "Julia Milagres", ra: "00000003", papel: "Frontend e UI/UX", foto: "", techs: ["Figma", "Design responsivo", "CSS Grid", "HTML"] },
   { nome: "Murilo Marcolino", ra: "00000004", papel: "Frontend", foto: "", techs: ["HTML", "CSS", "JavaScript", "Figma"] },
