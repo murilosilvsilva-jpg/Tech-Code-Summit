@@ -84,7 +84,7 @@ const equipe = [
   { nome: "João Paulo", ra: "00000002", papel: "Backend", foto: "", techs: ["Node.js", "REST APIs", "JSON", "Git", "Java"] },
   { nome: "Julia Milagres", ra: "00000003", papel: "UI/UX", foto: "", techs: ["Figma", "Design responsivo", "CSS Grid"] },
   { nome: "Murilo Marcolino", ra: "00000004", papel: "Frontend", foto: "", techs: ["HTML", "CSS", "JavaScript", "Figma"] },
-  { nome: "Yasmin Maria", ra: "00000005", papel: "Banco de dados", foto: "", techs: ["SQL", "Power BI", "Análise de dados"S] }
+  { nome: "Yasmin Maria", ra: "00000005", papel: "Banco de dados", foto: "", techs: ["SQL", "Power BI", "Análise de dados"] }
 ];
 
 module.exports = { evento, lotes, trilhas, programacao, equipe };
