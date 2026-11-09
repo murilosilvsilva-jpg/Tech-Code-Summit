@@ -20,7 +20,7 @@ Antes de iniciar, você precisará ter instalado em sua máquina:
 - **João Paulo Vitalino** — [JuaumPz](https://github.com/JuaumPz)
 - **Julia Milagres** — [jmilagresdev](https://github.com/jmilagresdev)
 - **Murilo Marcolino** — [murilosilvsilva-jpg](https://github.com/murilosilvsilva-jpg)
-- **Yasmin Maria Etevilna** — [Yasmin1Silva](https://github.com/Yasmin1Silva)
+- **Yasmin Silva** — [Yasmin1Silva](https://github.com/Yasmin1Silva)
 
 ---
 
