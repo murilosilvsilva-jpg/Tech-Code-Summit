@@ -1,0 +1,15 @@
+[
+  {
+    "id": "ea226d8f-d94c-40e0-8d54-3ebba04f0a85",
+    "nome": "bataba",
+    "email": "teste@gmail.com",
+    "loteId": 1,
+    "trilhaInteresse": "engenharia-software",
+    "valor": 79.9,
+    "status": "pago",
+    "criadoEm": "2026-11-09T04:43:09.762Z",
+    "metodo": "pix",
+    "pagoEm": "2026-11-09T04:43:19.796Z",
+    "codigo": "TCS-6B92D4"
+  }
+]

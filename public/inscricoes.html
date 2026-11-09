@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Inscrições · Tech & Code Summit</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&family=Space+Grotesk:wght@500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/app.js" defer></script>
+</head>
+
+<body data-page="inscricoes">
+    <main id="main">
+        <div class="page-head">
+            <div class="wrap">
+                <h1 style="font-size:clamp(2rem,5vw,3.5rem)">Inscrições e credenciamento</h1>
+                <p>Escolha seu lote, preencha seus dados e finalize o pagamento na plataforma simulada.</p>
+            </div>
+        </div>
+        <section class="sec">
+            <div class="wrap">
+                <h2>Lotes de ingressos</h2>
+                <div class="grid" id="lotes"></div>
+            </div>
+        </section>
+        <section class="sec">
+            <div class="wrap grid" style="grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:3rem">
+                <div>
+                    <h2>Garanta sua vaga</h2>
+                    <form id="form-insc"><label>Nome completo<input name="nome" required minlength="3"
+                                autocomplete="name"></label><label>E-mail<input name="email" type="email" required
+                                autocomplete="email"></label><label>Lote<select name="loteId" id="loteId"
+                                required></select></label><label>Trilha de maior interesse<select name="trilhaInteresse"
+                                id="trilhaInteresse" required></select></label>
+                        <p class="msg" id="msg" role="alert" hidden></p><button class="btn" type="submit">Ir para o
+                            pagamento</button>
+                    </form>
+                </div>
+                <div>
+                    <h2>Orientações gerais</h2>
+                    <ul>
+                        <li>Leve documento com foto e o código de credencial recebido após o pagamento.</li>
+                        <li>Credenciamento: a partir das 8h, no hall de entrada.</li>
+                        <li>Estudantes do Lote Pioneiro devem apresentar comprovante de matrícula.</li>
+                        <li>Cancelamentos com reembolso integral até 7 dias antes do evento.</li>
+                        <li>O espaço é acessível; avise a organização sobre necessidades específicas.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

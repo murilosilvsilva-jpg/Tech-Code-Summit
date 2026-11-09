@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Local · Tech & Code Summit</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&family=Space+Grotesk:wght@500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/app.js" defer></script>
+</head>
+
+<body data-page="local">
+    <main id="main">
+        <div class="page-head">
+            <div class="wrap">
+                <h1 style="font-size:clamp(2rem,5vw,3.5rem)">Local e infraestrutura</h1>
+                <p>Centro de Inovação Paulista, São Paulo - SP. Selecione uma área no mapa para ver os detalhes.</p>
+            </div>
+        </div>
+        <section class="sec">
+            <div class="wrap">
+                <ul class="legend">
+                    <li><button data-k="principal">Palco Principal</button></li>
+                    <li><button data-k="a">Palco A</button></li>
+                    <li><button data-k="b">Palco B</button></li>
+                    <li><button data-k="estandes">Estandes</button></li>
+                    <li><button data-k="oficinas">Workshops</button></li>
+                    <li><button data-k="food">Alimentação</button></li>
+                </ul>
+                <svg class="map" viewBox="0 0 800 460" role="img" aria-label="Mapa do espaço do evento"
+                    font-family="Space Grotesk,sans-serif" font-size="16" font-weight="700">
+                    <rect x="10" y="10" width="780" height="440" fill="none" stroke="currentColor" stroke-width="3" />
+                    <g class="zone" data-k="principal" tabindex="0" role="button" aria-label="Palco Principal">
+                        <rect x="30" y="30" width="360" height="150" fill="#E4572E" /><text x="210" y="112"
+                            text-anchor="middle" fill="#fff">Palco Principal</text>
+                    </g>
+                    <g class="zone" data-k="a" tabindex="0" role="button" aria-label="Palco A">
+                        <rect x="410" y="30" width="170" height="150" fill="#0B6E6E" /><text x="495" y="112"
+                            text-anchor="middle" fill="#fff">Palco A</text>
+                    </g>
+                    <g class="zone" data-k="b" tabindex="0" role="button" aria-label="Palco B">
+                        <rect x="600" y="30" width="170" height="150" fill="#3A5BA0" /><text x="685" y="112"
+                            text-anchor="middle" fill="#fff">Palco B</text>
+                    </g>
+                    <g class="zone" data-k="estandes" tabindex="0" role="button" aria-label="Área de estandes">
+                        <rect x="30" y="200" width="520" height="130" fill="#FFD60A" /><text x="290" y="272"
+                            text-anchor="middle" fill="#14213D">Área de Estandes</text>
+                    </g>
+                    <g class="zone" data-k="oficinas" tabindex="0" role="button" aria-label="Workshops">
+                        <rect x="570" y="200" width="200" height="130" fill="#6B3FA0" /><text x="670" y="272"
+                            text-anchor="middle" fill="#fff">Workshops / Lab</text>
+                    </g>
+                    <g class="zone" data-k="food" tabindex="0" role="button" aria-label="Praça de alimentação">
+                        <rect x="30" y="350" width="600" height="80" fill="#B8860B" /><text x="330" y="397"
+                            text-anchor="middle" fill="#fff">Praça de Alimentação</text>
+                    </g>
+                    <rect x="650" y="350" width="120" height="80" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-dasharray="6" /><text x="710" y="396" text-anchor="middle" font-size="14"
+                        fill="currentColor">Entrada</text>
+                </svg>
+                <div class="card" id="info-zona" aria-live="polite" style="margin-top:1rem"></div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

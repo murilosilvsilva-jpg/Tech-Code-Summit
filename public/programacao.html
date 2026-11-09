@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Programação · Tech & Code Summit</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&family=Space+Grotesk:wght@500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/app.js" defer></script>
+</head>
+
+<body data-page="programacao">
+    <main id="main">
+        <div class="page-head">
+            <div class="wrap">
+                <h1 style="font-size:clamp(2rem,5vw,3.5rem)">Programação oficial</h1>
+                <p>Palestras, workshops e minicursos nos dias 18 e 19 de março de 2027.</p>
+            </div>
+        </div>
+        <section class="sec">
+            <div class="wrap">
+                <div class="filters"><label>Dia<select id="f-dia">
+                            <option value="">Todos</option>
+                            <option value="1">Dia 1</option>
+                            <option value="2">Dia 2</option>
+                        </select></label><label>Tipo<select id="f-tipo">
+                            <option value="">Todos</option>
+                            <option>Palestra</option>
+                            <option>Workshop</option>
+                            <option>Minicurso</option>
+                        </select></label><label>Trilha<select id="f-trilha">
+                            <option value="">Todas</option>
+                        </select></label></div>
+                <div id="agenda" aria-live="polite"></div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
